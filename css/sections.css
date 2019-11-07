@@ -1,0 +1,81 @@
+/*BANNER*/
+.container {
+
+}
+
+.banner {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position:center;
+  height: 600px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container h1 {
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+}
+.container p {
+  color: grey;
+  font-family: Open Sans;
+  font-size: 20px ;
+  padding: 5px;
+}
+.container a {
+  position : relative;
+  top: 25px;
+  font-family: Open Sans;
+}
+
+/*CARDS*/
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  margin : auto;
+}
+
+.hiw-section {
+  margin:30px;
+}
+
+.hiw-section h2 {
+  display:flex;
+  margin-bottom:20px;
+  justify-content: center;
+}
+
+/*FOOTER*/
+
+.footer {
+  display: flex;
+  height: 200px;
+  background-color: #2C2B2B;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fab {
+  color: #1EDD88;
+  font-size: 30px;
+}
+
+.footer p {
+  color : grey;
+
+}
+
+.fas {
+  color: #BF0F12;
+}
+
+.icons {
+padding-bottom: 20px;
+}

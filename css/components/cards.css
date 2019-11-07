@@ -1,0 +1,25 @@
+.cards img {
+  height: 170px;
+  width: 170px;
+}
+
+.card {
+  border: solid 1px lightgrey;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  font-size: 16px;
+}
+.card p {
+  color : grey;
+}
+
+h2 {
+  text-align: center;
+}
+
+
